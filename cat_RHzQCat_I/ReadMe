@@ -1,0 +1,88 @@
+                                                      (Yingkang Zhang, 2025)
+================================================================================
+Radio High-Redshift Quasar Catalog (RHzQCat) - I
+    Yingkang Zhang, Authors ?
+    =References ?
+================================================================================
+Keywords: 
+
+Objects:
+    -----------------------------------------
+       RA   (2000)   DE    Designation(s)
+    -----------------------------------------
+
+Abstract:
+  Radio-loud high-redshift quasars (RHRQs) provide crucial insights into the
+  evolution of relativistic jets and their connection to the growth of
+  supermassive black holes. Beyond the extensively studied population at $z \geq
+  5$, the cosmic morning epoch ($3 \lesssim z \lesssim 5$) marks the peak of
+  active galactic nucleus (AGN) activity and black hole accretion, yet remains
+  relatively unexplored. In this work, we compiled the radio high-redshift
+  quasar catalog (RHzQCat) by cross-matching the SDSS DR16Q catalog with four
+  major radio surveys—FIRST,NVSS, RACS, and GLEAM.  Our tier-based cross-
+  matching framework and visual validation ensured reliable source
+  identification across surveys with diverse beam sizes. The catalog included
+  1629 reliable and 315 candidate RHRQs, with radio luminosities uniformly
+  spanning 10$^{25.5}$ – 10$^{29.3}$ W Hz$^{-1}$. About 95% of the confirmed
+  sources exhibited compact morphologies, consistent with Doppler-boosted or
+  young AGN populations at high redshifts. Our catalog increases the number of
+  known RHRQs at z ≥ 3 by an order of magnitude, representing the largest and
+  most homogeneous catalog of radio quasars at cosmic morning, filling the
+  observational gap between the early (z > 6) and local Universe. It provides a
+  robust reference for future statistical studies of jet evolution, AGN
+  feedback, and cosmic magnetism with next-generation facilities such as the
+  Square Kilometer Array (SKA).
+
+Description:
+  Additional information of the data context.
+
+File Summary:
+--------------------------------------------------------------------------------
+ FileName                   Lrecl  Records  Explanations
+--------------------------------------------------------------------------------
+ReadMe                         80        .  This file
+final_table1_category.csv.cds 294     2388  my CSV table
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: final_table1_category.csv.cds
+--------------------------------------------------------------------------------
+  Bytes   Format Units  Label           Explanations
+--------------------------------------------------------------------------------
+  1- 18   A18    ---    sdss_name        Description of sdss_name
+ 20- 31   F12.8  ---    sdss_ra         [0.07/359.74] Description of sdss_ra
+ 33- 44   F12.8  ---    sdss_dec        [-10.66/68.33] Description of sdss_dec
+ 46- 55   A10    ---    category         Description of category
+ 57- 61   F5.3   ---    sdss_z          [3.0/7.01] Description of sdss_z
+ 63- 71   A9     ---    sdss_source_z    Description of sdss_source_z
+ 73- 74   I2     ---    sdss_zwarning   [-1/68] Description of sdss_zwarning
+ 76- 76   I1     ---    z_reliable_flag [1/3] Description of z_reliable_flag
+ 78- 81   I4     ---    match_tier_code [3/3330] Description of match_tier_code
+ 83- 98   A16    ---    FIRST           ? Description of FIRST
+100-112   A13    ---    NVSS            ? Description of NVSS
+114-129   A16    ---    RACS            ? Description of RACS
+131-144   A14    ---    GLEAM           ? Description of GLEAM
+146-151   F6.3   ---    SEP_FIRST       [0.0/2.58]? Description of SEP_FIRST
+153-159   F7.3   ---    SEP_NVSS        [0.02/24.86]? Description of SEP_NVSS
+161-167   F7.3   ---    SEP_RACS        [0.02/13.91]? Description of SEP_RACS
+169-176   F8.3   ---    SEP_GLEAM       [1.17/107.56]? Description of SEP_GLEAM
+178-182   A5     ---    VI_code_FIRST   ? Description of VI_code_FIRST
+184-190   A7     ---    VI_code_NVSS    ? Description of VI_code_NVSS
+192-197   A6     ---    VI_code_RACS    ? Description of VI_code_RACS
+199-204   A6     ---    VI_code_GLEAM   ? Description of VI_code_GLEAM
+206-241   A36    ---    comment_1       ? Description of comment_1
+243-294   A52    ---    comment_2       ? Description of comment_2
+
+--------------------------------------------------------------------------------
+
+
+
+See also:
+ xxxxx/xxxxx : RHzQCat catalogue
+ http://...  : external link
+
+
+Acknowledgements:
+
+References:
+================================================================================
+     (prepared by author  / pyreadme )
