@@ -23,7 +23,7 @@ Abstract:
   matching framework and visual validation ensured reliable source
   identification across surveys with diverse beam sizes. The catalog included
   1629 reliable and 315 candidate RHRQs, with radio luminosities uniformly
-  spanning 10$^{25.5}$ -- 10$^{29.3}$ W Hz$^{-1}$. About 95% of the confirmed
+  spanning 10$^{25.5}$ – 10$^{29.3}$ W Hz$^{-1}$. About 95% of the confirmed
   sources exhibited compact morphologies, consistent with Doppler-boosted or
   young AGN populations at high redshifts. Our catalog increases the number of
   known RHRQs at z ≥ 3 by an order of magnitude, representing the largest and
@@ -38,11 +38,10 @@ Description:
 
 File Summary:
 --------------------------------------------------------------------------------
- FileName                     Lrecl  Records  Explanations
+ FileName                   Lrecl  Records  Explanations
 --------------------------------------------------------------------------------
-ReadMe                           80        .  This file
-final_table1_category.csv.cds   294     2388  table1_category
-final_table2_parameters.csv.cds 239     2388  table2_parameters
+ReadMe                         80        .  This file
+final_table1_category.csv.cds 294     2388  my CSV table
 --------------------------------------------------------------------------------
 
 Byte-by-byte Description of file: final_table1_category.csv.cds
@@ -72,42 +71,6 @@ Byte-by-byte Description of file: final_table1_category.csv.cds
 199-204   A6     ---    VI_code_GLEAM   ? Description of VI_code_GLEAM
 206-241   A36    ---    comment_1       ? Description of comment_1
 243-294   A52    ---    comment_2       ? Description of comment_2
-
---------------------------------------------------------------------------------
-
-Byte-by-byte Description of file: final_table2_parameters.csv.cds
---------------------------------------------------------------------------------
-  Bytes   Format Units  Label            Explanations
---------------------------------------------------------------------------------
-  1- 18   A18    ---    sdss_name         Description of sdss_name
- 20- 31   F12.8  ---    sdss_ra          [0.07/359.74] Description of sdss_ra
- 33- 44   F12.8  ---    sdss_dec         [-10.66/68.33] Description of sdss_dec
- 46- 55   A10    ---    category          Description of category
- 57- 61   F5.3   ---    sdss_z           [3.0/7.01] Description of sdss_z
- 63- 78   A16    ---    FIRST            ? Description of FIRST
- 80- 87   F8.2   ---    Fpeak_first      [0.75/2404.56]? Description of
-                                         Fpeak_first
- 89- 96   F8.2   ---    Fint_first       [0.46/2430.88]? Description of
-                                         Fint_first
- 98-103   F6.3   ---    Rms_first        [0.08/1.73]? Description of Rms_first
-105-117   A13    ---    NVSS             ? Description of NVSS
-119-125   F7.1   ---    S1.4_nvss        [2.1/2417.6]? Description of S1.4_nvss
-127-131   F5.1   ---    e_S1.4_nvss      [0.4/72.5]? Description of e_S1.4_nvss
-133-148   A16    ---    RACS-DR1         ? Description of RACS-DR1
-150-158   F9.3   ---    Fpk_racs         [1.18/1010.34]? Description of Fpk_racs
-160-165   F6.3   ---    e_Fpk_racs       [0.2/4.76]? Description of e_Fpk_racs
-167-175   F9.3   ---    Ftot_racs        [1.22/1038.48]? Description of
-                                         Ftot_racs
-177-182   F6.3   ---    e_Ftot_racs      [0.36/8.22]? Description of e_Ftot_racs
-184-197   A14    ---    GLEAM            ? Description of GLEAM
-199-207   F9.6   ---    Fpwide_gleam     [0.04/7.01]? Description of
-                                         Fpwide_gleam
-209-217   F9.6   ---    e_Fpwide_gleam   [0.0/0.09]? Description of
-                                         e_Fpwide_gleam
-219-227   F9.6   ---    Fintwide_gleam   [0.04/6.76]? Description of
-                                         Fintwide_gleam
-229-239   F11.8  ---    e_Fintwide_gleam [0.0/0.2]? Description of
-                                         e_Fintwide_gleam
 
 --------------------------------------------------------------------------------
 
